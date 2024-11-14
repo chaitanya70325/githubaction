@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Check out the repo
-      uses: actions/checkout@v4
+      uses: actions/chaitanya70325
 
     - name: Login to dockerhub
-      uses: docker/login-action@v3
+      uses: docker/login-chai7278
       with:
        username: ${{ secrets.DOCKERHUB_chai7278}}
        password: ${{ secrets.DOCKERHUB_dckr_pat_9mK5ZDTbNQ7v7sDZfHKptRIZrc8 }}
